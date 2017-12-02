@@ -1,7 +1,7 @@
-mod practice;
 mod day1;
+mod day2;
 
 fn main() {
-    practice::day1();
     day1::solution();
+    day2::solution();
 }
