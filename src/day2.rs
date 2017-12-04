@@ -17,8 +17,10 @@ static INPUT: &'static str = "\
 55	258	363	116	319	49	212	44	303	349	327	330	316	297	313	67";
 
 pub fn solution() {
+    println!("Day 2");
     println!("part 1: {}", part1(INPUT));
     println!("part 2: {}", part2(INPUT));
+    println!("-----------------");
 }
 
 fn part1(input: &str) -> u32 {
